@@ -24,7 +24,6 @@ public class SquareFallrScript : MonoBehaviour
         {
             _isMoveRight = !_isMoveRight;
         }
-
         if (!_isMoveRight)
         {
             _currentTime -= Time.deltaTime;
